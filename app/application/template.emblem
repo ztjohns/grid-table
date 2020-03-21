@@ -1,0 +1,23 @@
+// {{!-- The following component displays Ember's default welcome message. --}}
+// <WelcomePage />
+// {{!-- Feel free to remove this! --}}
+
+// {{outlet}}
+
+div style='width: 300px; background-color:lightgrey'
+  % GridTable @template="a b c" as |table|
+    = table.header as |header|
+      = header.cell name='a'
+        | First Name
+      = header.cell name='b'
+        | Last Name
+      = header.cell name='c'
+        | Age
+    each people as |p|
+      = table.row as |row|
+        = row.cell name='a'
+          | #{p.first}
+        = row.cell name='b'
+          | #{p.last}
+        = row.cell name='c'
+          | #{p.age}

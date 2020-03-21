@@ -1,0 +1,2 @@
+.grid-header
+  = yield (hash cell=(component 'grid-table/cell'))

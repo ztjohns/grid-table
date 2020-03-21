@@ -1,0 +1,3 @@
+.grid-table
+  = yield (hash row=(component 'grid-table/row' style="grid-template-layout:#{@template}") header=(component 'grid-table/header' style="grid-template-layout:#{@template}"))
+  / = yield (hash header=(component 'grid-table/header'))
