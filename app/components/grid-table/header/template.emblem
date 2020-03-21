@@ -1,2 +1,3 @@
-.grid-header
+.grid-header 
+  = log 'header' style
   = yield (hash cell=(component 'grid-table/cell'))

@@ -4,8 +4,8 @@
 
 // {{outlet}}
 
-div style='width: 300px; background-color:lightgrey'
-  % GridTable @template="a b c" as |table|
+div style='width: 400px; height:300px; background-color:lightgrey'
+  % GridTable @template="a c b" as |table|
     = table.header as |header|
       = header.cell name='a'
         | First Name
