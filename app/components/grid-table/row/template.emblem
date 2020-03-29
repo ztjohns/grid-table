@@ -1,2 +1,2 @@
-.grid-row
+.grid-row style=@style
   = yield (hash cell=(component 'grid-table/cell'))

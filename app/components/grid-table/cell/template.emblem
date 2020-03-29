@@ -1,2 +1,2 @@
-.cell
+.cell style={concat "grid-area:" @name}
   = yield

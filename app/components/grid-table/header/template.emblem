@@ -1,2 +1,2 @@
-.grid-header
+.grid-header style=@style
   = yield (hash cell=(component 'grid-table/cell'))

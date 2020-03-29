@@ -5,7 +5,7 @@
 // {{outlet}}
 
 div style='width: 300px; background-color:lightgrey'
-  % GridTable @template="a b c" as |table|
+  % GridTable @template="b a c" as |table|
     = table.header as |header|
       = header.cell name='a'
         | First Name
